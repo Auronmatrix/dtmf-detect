@@ -10,6 +10,7 @@
     ]
   },
   "scripts": {
+    "bundle": "./node_modules/.bin/browserify index.js -o bundle.js",
     "test": "echo \"Error: no test specified\""
   },
   "author": "Nick Matantsev <nick.matantsev@gmail.com>",

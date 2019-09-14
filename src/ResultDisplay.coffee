@@ -29,7 +29,7 @@ ResultScreen = ({ coder }) ->
     position: 'relative'
     width: '768px'
     height: '64px'
-    overflow: 'hidden',
+    overflow: 'scroll',
     border: '1px solid #c0c0c0'
     borderRadius: '3px'
   },
@@ -38,7 +38,7 @@ ResultScreen = ({ coder }) ->
       display: 'inline-block'
       verticalAlign: 'middle'
       fontFamily: 'Courier New, mono'
-      fontSize: '32px'
+      fontSize: '10px'
       fontWeight: 'bold'
       height: '64px'
       lineHeight: '64px'
